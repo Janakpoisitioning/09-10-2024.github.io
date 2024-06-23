@@ -415,36 +415,37 @@
      });
    });
  
-   function searchData() {
-     var searchText = document.getElementById('searchInput').value.toLowerCase();
- 
-     if (searchText.trim() === '') {
-       document.getElementById('searchResult').textContent = 'Please enter a Serial No.';
-       return;
-     }
- 
-     var found = dataArray.filter(function(row) {
-       return row.some(function(cell) {
-         return cell.toLowerCase().indexOf(searchText) > -1;
-       });
-     });
- 
-     var searchResultDiv = document.getElementById('searchResult');
-     if (found.length > 0) {
-       var resultHtml = '<h3>Activation code</h3><table>';
-       found.forEach(function(row) {
-         resultHtml += '<tr>';
-         row.forEach(function(cell) {
-           resultHtml += '<td>' + cell + '</td>';
-         });
-         resultHtml += '</tr>';
-       });
-       resultHtml += '</table>';
-       searchResultDiv.innerHTML = resultHtml;
-     } else {
-       searchResultDiv.textContent = 'Invalid Serial No.: ' + searchText;
-     }
-   }
+  function searchData() {
+  var searchText = document.getElementById('searchInput').value.trim().toLowerCase();
+
+  if (searchText === '') {
+    document.getElementById('searchResult').textContent = 'Please enter a Serial No.';
+    return;
+  }
+
+  var found = dataArray.filter(function(row) {
+    return row.some(function(cell) {
+      return cell.trim().toLowerCase() === searchText;
+    });
+  });
+
+  var searchResultDiv = document.getElementById('searchResult');
+  if (found.length > 0) {
+    var resultHtml = '<h3>Activation code</h3><table>';
+    found.forEach(function(row) {
+      resultHtml += '<tr>';
+      row.forEach(function(cell) {
+        resultHtml += '<td>' + cell + '</td>';
+      });
+      resultHtml += '</tr>';
+    });
+    resultHtml += '</table>';
+    searchResultDiv.innerHTML = resultHtml;
+  } else {
+    searchResultDiv.textContent = 'Invalid Serial No.: ' + searchText;
+  }
+}
+
  </script>
 <title>Activation Video</title>
     <style>
