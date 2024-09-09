@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
  <html lang="en">
  <head>
  <meta charset="UTF-8">
@@ -483,7 +483,7 @@
 
   <p>&copy;
         9667794120 / 8576987851 contact for any help.2024 Janak Webpage. All rights reserved.</p>
-    </footer>
+    
  
  </body>
- </html>
+ 
