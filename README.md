@@ -483,6 +483,4 @@
 
   <p>&copy;
         9667794120 / 8576987851 contact for any help.2024 Janak Webpage. All rights reserved.</p>
-    
- 
  </body>
