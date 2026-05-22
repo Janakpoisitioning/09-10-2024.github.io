@@ -478,9 +478,6 @@
    (host instrument has expired)</p>
   <a href="https://github.com/Janakpoisitioning/Janak-Resolution.github.io/assets/159873000/e30ff62e-7e21-42b3-ab3e-db4f0da84e51" target="_blank">https://github.com/Janakpoisitioning/Janak-Resolution.github.io/assets/159873000/e30ff62e-7e21-42b3-ab3e-db4f0da84e51</a>
  
- <p>RTK Software</p>
-  <a href="https://drive.google.com/file/d/1sSi3r3pz7-gIZxIxTdVyJdo8ktfTk749/view?usp=drivesdk" target="_blank">https://drive.google.com/file/d/1sSi3r3pz7-gIZxIxTdVyJdo8ktfTk749/view?usp=drivesdk</a>
-
   <p>&copy;
         9667794120 / 8576987851 contact for any help.2024 Janak Webpage. All rights reserved.</p>
  </body>
